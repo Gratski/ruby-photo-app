@@ -5,6 +5,15 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+
+
+#DEVICE
+gem 'devise'
+#BOOTSTRAP
+gem 'twitter-bootstrap-rails'
+gem 'devise-bootstrap-views' #for devise to generate the views for us
+
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
