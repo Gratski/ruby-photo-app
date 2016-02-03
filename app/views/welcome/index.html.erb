@@ -1,1 +1,35 @@
-<h1>Welcome to the photo app</h1>
+<% if user_signed_in? %>
+  <h1>
+    Welcome <%= current_user.email %>
+  </h1>  
+<% else %>
+  <h1>Welcome to photo-app</h1>
+<% end %>
+
+<div class="jumbotron">
+  <p>This is the welcome page for our app</p>
+</div>
+<div class="lead">
+  Feel free to change it as you want
+</div>
+
+<div class="col-md-12 no-padding">
+  <p class="lead">Here i am simply making a test for us to use stripe payments system</p>
+
+  <div class="col-md-4 no-padding">
+    <div class="well panel panel-default">
+      <div class="panel-head">
+        Header
+      </div>
+      <div class="panel-body">
+        Body
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    
+  </div>
+  <div class="col-md-4">
+    
+  </div>
+</div>
